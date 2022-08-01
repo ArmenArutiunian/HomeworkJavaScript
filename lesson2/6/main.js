@@ -2,12 +2,22 @@
 //     за допомоги  оператора || буде присвоювати змінній х значення "default"  якщо значення змінної х являється falsy
 // (хибноподыбне, тобто кастується до false)
 
+let x = NaN ||'default' ;
+console.log(x);
+
+
+
+
+
+
+
+
 // В фул чаті писали що має робитись через if
-let x = null;
-
-if ( !x || " ohya" )
-    console.log('default')
-
+// let x = null;
+//
+// if ( !x || " ohya" )
+//     console.log('default')
+//
 
 
 

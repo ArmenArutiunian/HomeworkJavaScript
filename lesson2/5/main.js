@@ -8,10 +8,10 @@ y = 50;
 
 
 if (x > y){
- console.log('max-number');
+ console.log(x);
 }
 else if (y > x ) {
- console.log('min-number');
+ console.log(y);
 }else if (x === 15 && y === 15 ){
  console.log('fslidlfisjrgilsmrfg')
 }
