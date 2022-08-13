@@ -1,0 +1,24 @@
+body{
+    display: flex;
+    justify-content: space-around;
+}
+
+.product-image {
+    height: 300px;
+    width: 300px;
+
+}
+.product-title{
+    width: 150px;
+    height: 50px;
+    color:red;
+    padding-left: 100px;
+
+}
+.product-card{
+    height:400px ;
+    width: 400px;
+
+
+}
+
