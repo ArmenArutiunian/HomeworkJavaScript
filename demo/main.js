@@ -53,12 +53,23 @@
 // arrayPrinter(products);
 
 
-function onetwo(a,b){
-    res = a + b;
-    return res;
+
+
+
+
+
+
+
+
+
+let a = [];
+function cutString(str, n) {
+
+    for (let i = 0; i < str.length; i+=n) {
+        let sub = str.substring(i, i + n);
+        a.push(sub);
+    }
+    return a;
 }
-let x = onetwo(99 ,85)   // варіант 1
-console.log(x)
 
-
-// console.log(onetwo(15, 99));   // варіант 2
+console.log(cutString('наслаждение', 3));
